@@ -112,23 +112,23 @@ public static WebDriver driver;
 			log.error("==Unable to send Value "+fieldname);
 	}
 
-		
-	}
+}
 	public void Custom_click(WebElement element, String fieldname) 
 	{
 		try {
-			if(element.isDisplayed() || element.isEnabled()==true) {
-				element.click();
+			if(element.isDisplayed() || element.isEnabled()==true)
+			{
+			 element.click();
 				test.log(Status.PASS, "Successfully click=="+ fieldname);
 				log.info("  Successfully Click "+fieldname);
 			}
 		}
-	catch(Exception e) {
+		catch(Exception e) {
 			test.log(Status.FAIL, fieldname+"==Unable To Click =="+e);
 			log.error("==Unable to Click "+fieldname);
 						}
-		
-	}
+		}
+	
 	public void msg(String fieldname, String fieldname1) 
 	{
 		try {
@@ -139,9 +139,7 @@ catch(Exception e) {
 		test.log(Status.FAIL, fieldname1+"==Unable Action performed =="+e);
 		log.error(fieldname+""+fieldname1);
 					}
-
-		
-	}
+}
 	public void visible_and_click(WebElement element, String fieldname) 
 	{
 		try {
@@ -174,15 +172,9 @@ catch(Exception e) {
 						}
 		
 	}
-	@AfterTest
-	public void closewindow()
-	{
-		driver.quit();
-	}
-	@Override
 	public void getScreenShot(String foldername, String filename) 
 	{
-		String path = System.getProperty("user.dir")+"\\Screen_Shot\\" +foldername + "\\*\\" +filename + ".png";
+		String path = System.getProperty("user.dir")+"\\Screen_Shot\\" +foldername + "\\" +filename + ".png";
 	try {
 		
 		EventFiringWebDriver ewf = new EventFiringWebDriver(driver);
@@ -200,15 +192,15 @@ catch(Exception e) {
 //			
 //			if(result.getStatus()==ITestResult.SUCCESS)
 //			{
-//				getScreenShot("Pass" , filename + date_and_Time("dd-MM-yyyy hh:mm:ss"));
+//				getScreenShot("Passed" , filename + date_and_Time("dd-MM-yyyy_hh mm ss"));
 //			}
 //			else if(result.getStatus()==ITestResult.FAILURE)
 //			{
-//				getScreenShot("Fail", filename +date_and_Time("dd-MM-yyyy hh:mm:ss"));
+//				getScreenShot("Faild", filename +date_and_Time("dd-MM-yyyy_hh mm ss"));
 //			}
 //			else if(result.getStatus()==ITestResult.SKIP)
 //			{
-//				getScreenShot("Skip", filename +date_and_Time("dd-MM-yyyy hh:mm:ss"));
+//				getScreenShot("Skip", filename +date_and_Time("dd-MM-yyyy_hh mm ss"));
 //			}
 //		} catch (Exception e) {
 //			System.out.println("Problem in getanalysis" +e);
@@ -226,6 +218,11 @@ catch(Exception e) {
 			System.out.println("Problem in data and time" +e);
 		}
 		return value;
+	}
+	@AfterTest
+	public void closewindow()
+	{
+		driver.quit();
 	}
 		
 	}

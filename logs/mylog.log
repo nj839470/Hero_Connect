@@ -1,6 +1,0 @@
-[INFO ] 2023-03-15 14:01:51.566 [main] Hero_Connect -      ----T0001 ----Title page ------
-[INFO ] 2023-03-15 14:01:51.582 [main] Hero_Connect -  Using google URL = https://www.google.com/
-[INFO ] 2023-03-15 14:01:51.608 [main] Hero_Connect - ---TC001---Search Hero on connect
-[INFO ] 2023-03-15 14:01:51.879 [main] Hero_Connect -   Successfully send Value  = search hero Connect =[[ChromeDriver: chrome on WINDOWS (14934301cb790f725a5bcc761ffc44aa)] -> xpath: //input[@class="gLFyf"]]
-[INFO ] 2023-03-15 14:01:51.883 [main] Hero_Connect - ---TC002----Open hero_connect
-[ERROR] 2023-03-15 14:01:52.179 [main] Hero_Connect - ==Unable to Click  = on hero_connect =[[ChromeDriver: chrome on WINDOWS (14934301cb790f725a5bcc761ffc44aa)] -> xpath: (//span[contains(text(),'hero connect')])[1]]

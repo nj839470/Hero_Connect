@@ -48,8 +48,7 @@ public class listner extends Baselibraray implements ITestListener {
 	
 		public void onTestFailure(ITestResult result) {
 			test.log(Status.FAIL, "Test Case Fail");
-			test.addScreenCaptureFromBase64String(getscreenshot());
-			//test.addScreenCaptureFromBase64String(getscreenshot());			
+			test.addScreenCaptureFromBase64String(getscreenshot());			
 		}
 	
 		public void onTestSkipped(ITestResult result) {
