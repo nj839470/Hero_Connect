@@ -1,0 +1,18 @@
+[INFO ] 2023-03-15 10:45:48.570 [main] Hero_Connect -      ----T0001 ----Title page ------
+[INFO ] 2023-03-15 10:45:48.582 [main] Hero_Connect -  Using google URL = https://www.google.com/
+[INFO ] 2023-03-15 10:45:49.226 [main] Hero_Connect - ---TC001---Search Hero on connect
+[INFO ] 2023-03-15 10:45:49.460 [main] Hero_Connect -   Successfully send Value  = search hero Connect =[[ChromeDriver: chrome on WINDOWS (fdc3dbeca2e6b930f6fdecf8fe3898ff)] -> xpath: //input[@class="gLFyf"]]
+[INFO ] 2023-03-15 10:45:50.019 [main] Hero_Connect - ---TC002----Open hero_connect
+[ERROR] 2023-03-15 10:46:10.101 [main] Hero_Connect - ==Unable to Click  = on hero_connect =Proxy element for: DefaultElementLocator 'By.xpath: (//span[contains(text(),'hero connect')])[1]'
+[INFO ] 2023-03-15 10:46:15.808 [main] Hero_Connect -      ----T0001 ----Title page ------
+[INFO ] 2023-03-15 10:46:15.809 [main] Hero_Connect -  Using google URL = https://www.google.com/
+[INFO ] 2023-03-15 10:46:16.243 [main] Hero_Connect - ---TC001---Search Hero on connect
+[INFO ] 2023-03-15 10:46:16.440 [main] Hero_Connect -   Successfully send Value  = search hero Connect =[[EdgeDriver: msedge on WINDOWS (7caee1bf2728de76a3e4e73f6e8c1c3f)] -> xpath: //input[@class="gLFyf"]]
+[INFO ] 2023-03-15 10:46:17.075 [main] Hero_Connect - ---TC002----Open hero_connect
+[ERROR] 2023-03-15 10:46:37.176 [main] Hero_Connect - ==Unable to Click  = on hero_connect =Proxy element for: DefaultElementLocator 'By.xpath: (//span[contains(text(),'hero connect')])[1]'
+[INFO ] 2023-03-15 10:46:45.232 [main] Hero_Connect -      ----T0001 ----Title page ------
+[INFO ] 2023-03-15 10:46:45.233 [main] Hero_Connect -  Using google URL = https://www.google.com/
+[INFO ] 2023-03-15 10:46:45.503 [main] Hero_Connect - ---TC001---Search Hero on connect
+[INFO ] 2023-03-15 10:46:45.827 [main] Hero_Connect -   Successfully send Value  = search hero Connect =[[FirefoxDriver: firefox on WINDOWS (1f8646b1-c9e8-4c64-befe-08984d3b58b0)] -> xpath: //input[@class="gLFyf"]]
+[INFO ] 2023-03-15 10:46:46.150 [main] Hero_Connect - ---TC002----Open hero_connect
+[ERROR] 2023-03-15 10:47:06.193 [main] Hero_Connect - ==Unable to Click  = on hero_connect =Proxy element for: DefaultElementLocator 'By.xpath: (//span[contains(text(),'hero connect')])[1]'

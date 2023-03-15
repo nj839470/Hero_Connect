@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-15T10:19:32 IST" name="Google" finished-at="2023-03-15T10:20:32 IST" duration-ms="60200">
+    <groups>
+    </groups>
+    <test started-at="2023-03-15T10:19:32 IST" name="Chrome" finished-at="2023-03-15T10:19:52 IST" duration-ms="20725">
+      <class name="Hero_Connect_Page_Test.Google_page_Test">
+        <test-method is-config="true" signature="launchURL(java.lang.String,java.lang.String)[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@6c284af]" started-at="2023-03-15T10:19:32 IST" name="launchURL" finished-at="2023-03-15T10:19:38 IST" duration-ms="6757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="get_Title()[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@6c284af]" started-at="2023-03-15T10:19:39 IST" name="get_Title" finished-at="2023-03-15T10:19:39 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Title -->
+        <test-method is-config="true" signature="getanalysis(org.testng.ITestResult)[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@6c284af]" started-at="2023-03-15T10:19:39 IST" name="getanalysis" finished-at="2023-03-15T10:19:40 IST" duration-ms="490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_Title status=SUCCESS method=Google_page_Test.get_Title()[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@6c284af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getanalysis -->
+        <test-method signature="search_hero_connect()[pri:1, instance:Hero_Connect_Page_Test.Google_page_Test@6c284af]" started-at="2023-03-15T10:19:40 IST" name="search_hero_connect" finished-at="2023-03-15T10:19:40 IST" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_hero_connect -->
+        <test-method is-config="true" signature="getanalysis(org.testng.ITestResult)[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@6c284af]" started-at="2023-03-15T10:19:40 IST" name="getanalysis" finished-at="2023-03-15T10:19:41 IST" duration-ms="426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search_hero_connect status=SUCCESS method=Google_page_Test.search_hero_connect()[pri:1, instance:Hero_Connect_Page_Test.Google_page_Test@6c284af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getanalysis -->
+        <test-method signature="click_on_Hero_connect()[pri:2, instance:Hero_Connect_Page_Test.Google_page_Test@6c284af]" started-at="2023-03-15T10:19:41 IST" name="click_on_Hero_connect" finished-at="2023-03-15T10:19:51 IST" duration-ms="10419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_Hero_connect -->
+        <test-method is-config="true" signature="getanalysis(org.testng.ITestResult)[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@6c284af]" started-at="2023-03-15T10:19:51 IST" name="getanalysis" finished-at="2023-03-15T10:19:51 IST" duration-ms="362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click_on_Hero_connect status=SUCCESS method=Google_page_Test.click_on_Hero_connect()[pri:2, instance:Hero_Connect_Page_Test.Google_page_Test@6c284af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getanalysis -->
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@6c284af]" started-at="2023-03-15T10:19:51 IST" name="closewindow" finished-at="2023-03-15T10:19:52 IST" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- Hero_Connect_Page_Test.Google_page_Test -->
+    </test> <!-- Chrome -->
+    <test started-at="2023-03-15T10:19:53 IST" name="Edge" finished-at="2023-03-15T10:20:10 IST" duration-ms="17291">
+      <class name="Hero_Connect_Page_Test.Google_page_Test">
+        <test-method is-config="true" signature="launchURL(java.lang.String,java.lang.String)[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@65987993]" started-at="2023-03-15T10:19:53 IST" name="launchURL" finished-at="2023-03-15T10:19:58 IST" duration-ms="4675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="get_Title()[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@65987993]" started-at="2023-03-15T10:19:58 IST" name="get_Title" finished-at="2023-03-15T10:19:58 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Title -->
+        <test-method is-config="true" signature="getanalysis(org.testng.ITestResult)[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@65987993]" started-at="2023-03-15T10:19:58 IST" name="getanalysis" finished-at="2023-03-15T10:19:58 IST" duration-ms="334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_Title status=SUCCESS method=Google_page_Test.get_Title()[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@65987993] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getanalysis -->
+        <test-method signature="search_hero_connect()[pri:1, instance:Hero_Connect_Page_Test.Google_page_Test@65987993]" started-at="2023-03-15T10:19:58 IST" name="search_hero_connect" finished-at="2023-03-15T10:19:59 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_hero_connect -->
+        <test-method is-config="true" signature="getanalysis(org.testng.ITestResult)[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@65987993]" started-at="2023-03-15T10:19:59 IST" name="getanalysis" finished-at="2023-03-15T10:19:59 IST" duration-ms="347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search_hero_connect status=SUCCESS method=Google_page_Test.search_hero_connect()[pri:1, instance:Hero_Connect_Page_Test.Google_page_Test@65987993] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getanalysis -->
+        <test-method signature="click_on_Hero_connect()[pri:2, instance:Hero_Connect_Page_Test.Google_page_Test@65987993]" started-at="2023-03-15T10:19:59 IST" name="click_on_Hero_connect" finished-at="2023-03-15T10:20:10 IST" duration-ms="10410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_Hero_connect -->
+        <test-method is-config="true" signature="getanalysis(org.testng.ITestResult)[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@65987993]" started-at="2023-03-15T10:20:10 IST" name="getanalysis" finished-at="2023-03-15T10:20:10 IST" duration-ms="311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click_on_Hero_connect status=SUCCESS method=Google_page_Test.click_on_Hero_connect()[pri:2, instance:Hero_Connect_Page_Test.Google_page_Test@65987993] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getanalysis -->
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@65987993]" started-at="2023-03-15T10:20:10 IST" name="closewindow" finished-at="2023-03-15T10:20:10 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- Hero_Connect_Page_Test.Google_page_Test -->
+    </test> <!-- Edge -->
+    <test started-at="2023-03-15T10:20:11 IST" name="Firefox" finished-at="2023-03-15T10:20:32 IST" duration-ms="21397">
+      <class name="Hero_Connect_Page_Test.Google_page_Test">
+        <test-method is-config="true" signature="launchURL(java.lang.String,java.lang.String)[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@4d1bf319]" started-at="2023-03-15T10:20:11 IST" name="launchURL" finished-at="2023-03-15T10:20:19 IST" duration-ms="8063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="get_Title()[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@4d1bf319]" started-at="2023-03-15T10:20:19 IST" name="get_Title" finished-at="2023-03-15T10:20:19 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Title -->
+        <test-method is-config="true" signature="getanalysis(org.testng.ITestResult)[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@4d1bf319]" started-at="2023-03-15T10:20:19 IST" name="getanalysis" finished-at="2023-03-15T10:20:19 IST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_Title status=SUCCESS method=Google_page_Test.get_Title()[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@4d1bf319] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getanalysis -->
+        <test-method signature="search_hero_connect()[pri:1, instance:Hero_Connect_Page_Test.Google_page_Test@4d1bf319]" started-at="2023-03-15T10:20:19 IST" name="search_hero_connect" finished-at="2023-03-15T10:20:20 IST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_hero_connect -->
+        <test-method is-config="true" signature="getanalysis(org.testng.ITestResult)[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@4d1bf319]" started-at="2023-03-15T10:20:20 IST" name="getanalysis" finished-at="2023-03-15T10:20:20 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search_hero_connect status=SUCCESS method=Google_page_Test.search_hero_connect()[pri:1, instance:Hero_Connect_Page_Test.Google_page_Test@4d1bf319] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getanalysis -->
+        <test-method signature="click_on_Hero_connect()[pri:2, instance:Hero_Connect_Page_Test.Google_page_Test@4d1bf319]" started-at="2023-03-15T10:20:20 IST" name="click_on_Hero_connect" finished-at="2023-03-15T10:20:30 IST" duration-ms="10360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_Hero_connect -->
+        <test-method is-config="true" signature="getanalysis(org.testng.ITestResult)[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@4d1bf319]" started-at="2023-03-15T10:20:30 IST" name="getanalysis" finished-at="2023-03-15T10:20:30 IST" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=click_on_Hero_connect status=SUCCESS method=Google_page_Test.click_on_Hero_connect()[pri:2, instance:Hero_Connect_Page_Test.Google_page_Test@4d1bf319] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getanalysis -->
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@4d1bf319]" started-at="2023-03-15T10:20:30 IST" name="closewindow" finished-at="2023-03-15T10:20:32 IST" duration-ms="1581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- Hero_Connect_Page_Test.Google_page_Test -->
+    </test> <!-- Firefox -->
+  </suite> <!-- Google -->
+</testng-results>

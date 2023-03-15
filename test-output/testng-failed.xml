@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Google]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="title(failed)">
+    <parameter name="browswe_name" value="chrome"/>
+    <parameter name="env" value="google"/>
+    <classes>
+      <class name="Hero_Connect_Page_Test.Google_page_Test">
+        <methods>
+          <include name="get_Title"/>
+          <include name="launchURL"/>
+          <include name="search_hero_connect"/>
+        </methods>
+      </class> <!-- Hero_Connect_Page_Test.Google_page_Test -->
+    </classes>
+  </test> <!-- title(failed) -->
+</suite> <!-- Failed suite [Google] -->
