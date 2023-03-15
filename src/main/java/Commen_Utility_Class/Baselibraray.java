@@ -192,29 +192,29 @@ catch(Exception e) {
 		System.out.println("Problem in getScreen shot meythod" +e);
 	}
 	}
-	@AfterMethod
-	public void getanalysis(ITestResult result)
-	{
-		String filename = result.getMethod().getMethodName();
-		try {
-			
-			if(result.getStatus()==ITestResult.SUCCESS)
-			{
-				getScreenShot("Pass" , filename + date_and_Time("dd-MM-yyyy hh:mm:ss"));
-			}
-			else if(result.getStatus()==ITestResult.FAILURE)
-			{
-				getScreenShot("Fail", filename +date_and_Time("dd-MM-yyyy hh:mm:ss"));
-			}
-			else if(result.getStatus()==ITestResult.SKIP)
-			{
-				getScreenShot("Skip", filename +date_and_Time("dd-MM-yyyy hh:mm:ss"));
-			}
-		} catch (Exception e) {
-			System.out.println("Problem in getanalysis" +e);
-		}
-	}
-	@Override
+//	@AfterMethod
+//	public void getanalysis(ITestResult result)
+//	{
+//		String filename = result.getMethod().getMethodName();
+//		try {
+//			
+//			if(result.getStatus()==ITestResult.SUCCESS)
+//			{
+//				getScreenShot("Pass" , filename + date_and_Time("dd-MM-yyyy hh:mm:ss"));
+//			}
+//			else if(result.getStatus()==ITestResult.FAILURE)
+//			{
+//				getScreenShot("Fail", filename +date_and_Time("dd-MM-yyyy hh:mm:ss"));
+//			}
+//			else if(result.getStatus()==ITestResult.SKIP)
+//			{
+//				getScreenShot("Skip", filename +date_and_Time("dd-MM-yyyy hh:mm:ss"));
+//			}
+//		} catch (Exception e) {
+//			System.out.println("Problem in getanalysis" +e);
+//		}
+//	}
+//	@Override
 	public String date_and_Time(String formate) 
 	{
 		String value ="";

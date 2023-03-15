@@ -3,6 +3,7 @@ package Page_Classes;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import Commen_Utility_Class.Baselibraray;
 
@@ -30,5 +31,6 @@ public Google_page()
 	{
 		log.info("---TC002----Open hero_connect");
 		Custom_click(open_Hero_connect, " = on hero_connect =" +open_Hero_connect);
+		//Assert.assertTrue(false);
 	}
 }
