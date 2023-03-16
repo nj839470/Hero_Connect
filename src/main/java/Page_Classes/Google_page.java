@@ -25,7 +25,7 @@ public Google_page()
 	public void search_hero_connect()
 	{
 		log.info("---TC001---Search Hero on connect");
-		custom_sendkeys(search, "Hero Connect", " = search hero Connect =" +search);
+		custom_sendkeys(search, "Hero Connect1", " = search hero Connect =" +search);
 	}
 	public void click_on_Hero_connect()
 	{
