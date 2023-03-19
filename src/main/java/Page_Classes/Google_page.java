@@ -24,12 +24,12 @@ public Google_page()
 	}
 	public void search_hero_connect()
 	{
-		log.info("---TC001---Search Hero on connect");
-		custom_sendkeys(search, "Hero Connect1", " = search hero Connect =" +search);
+		log.info("---TC002---Search Hero on connect");
+		custom_sendkeys(search, "Hero Connect", " = search hero Connect =" +search);
 	}
 	public void click_on_Hero_connect()
 	{
-		log.info("---TC002----Open hero_connect");
+		log.info("---TC003----Open hero_connect");
 		Custom_click(open_Hero_connect, " = on hero_connect =" +open_Hero_connect);
 		//Assert.assertTrue(false);
 	}

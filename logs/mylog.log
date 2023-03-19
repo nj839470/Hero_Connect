@@ -1,6 +1,18 @@
-[INFO ] 2023-03-16 09:44:07.318 [main] Hero_Connect -      ----T0001 ----Title page ------
-[INFO ] 2023-03-16 09:44:07.337 [main] Hero_Connect -  Using google URL = https://www.google.com/
-[INFO ] 2023-03-16 09:44:07.365 [main] Hero_Connect - ---TC001---Search Hero on connect
-[INFO ] 2023-03-16 09:44:07.606 [main] Hero_Connect -   Successfully send Value  = search hero Connect =[[ChromeDriver: chrome on WINDOWS (649165362a5c0962bfc632df9194a926)] -> xpath: //input[@class="gLFyf"]]
-[INFO ] 2023-03-16 09:44:07.611 [main] Hero_Connect - ---TC002----Open hero_connect
-[ERROR] 2023-03-16 09:44:08.516 [main] Hero_Connect - ==Unable to Click  = on hero_connect =[[ChromeDriver: chrome on WINDOWS (649165362a5c0962bfc632df9194a926)] -> xpath: (//span[contains(text(),'hero connect')])[1]]
+[INFO ] 2023-03-19 19:54:54.042 [main] Hero_Connect -      ----T0001 ----Title page ------
+[INFO ] 2023-03-19 19:54:54.065 [main] Hero_Connect -  Using google URL = https://www.google.com/
+[INFO ] 2023-03-19 19:54:54.096 [main] Hero_Connect - ---TC002---Search Hero on connect
+[INFO ] 2023-03-19 19:54:54.555 [main] Hero_Connect -   Successfully send Value  = search hero Connect =[[RemoteWebDriver: chrome on WIN10 (7510c6b415515a373feb57b6000ccf3d)] -> xpath: //input[@class="gLFyf"]]
+[INFO ] 2023-03-19 19:54:54.560 [main] Hero_Connect - ---TC003----Open hero_connect
+[INFO ] 2023-03-19 19:54:58.099 [main] Hero_Connect -   Successfully Click  = on hero_connect =[[RemoteWebDriver: chrome on WIN10 (7510c6b415515a373feb57b6000ccf3d)] -> xpath: (//span[contains(text(),'hero connect')])[1]]
+[INFO ] 2023-03-19 19:55:04.183 [main] Hero_Connect -      ----T0001 ----Title page ------
+[INFO ] 2023-03-19 19:55:04.184 [main] Hero_Connect -  Using google URL = https://www.google.com/
+[INFO ] 2023-03-19 19:55:04.203 [main] Hero_Connect - ---TC002---Search Hero on connect
+[INFO ] 2023-03-19 19:55:04.570 [main] Hero_Connect -   Successfully send Value  = search hero Connect =[[RemoteWebDriver: msedge on WIN10 (edb1c77caa31b4bfc10895c772eb5245)] -> xpath: //input[@class="gLFyf"]]
+[INFO ] 2023-03-19 19:55:04.575 [main] Hero_Connect - ---TC003----Open hero_connect
+[INFO ] 2023-03-19 19:55:08.460 [main] Hero_Connect -   Successfully Click  = on hero_connect =[[RemoteWebDriver: msedge on WIN10 (edb1c77caa31b4bfc10895c772eb5245)] -> xpath: (//span[contains(text(),'hero connect')])[1]]
+[INFO ] 2023-03-19 19:55:17.071 [main] Hero_Connect -      ----T0001 ----Title page ------
+[INFO ] 2023-03-19 19:55:17.075 [main] Hero_Connect -  Using google URL = https://www.google.com/
+[INFO ] 2023-03-19 19:55:17.098 [main] Hero_Connect - ---TC002---Search Hero on connect
+[INFO ] 2023-03-19 19:55:17.339 [main] Hero_Connect -   Successfully send Value  = search hero Connect =[[RemoteWebDriver: firefox on WIN10 (bc2b30f5-1555-4fac-8d0d-9df6f359cbe2)] -> xpath: //input[@class="gLFyf"]]
+[INFO ] 2023-03-19 19:55:17.342 [main] Hero_Connect - ---TC003----Open hero_connect
+[INFO ] 2023-03-19 19:55:20.465 [main] Hero_Connect -   Successfully Click  = on hero_connect =[[RemoteWebDriver: firefox on WIN10 (bc2b30f5-1555-4fac-8d0d-9df6f359cbe2)] -> xpath: (//span[contains(text(),'hero connect')])[1]]

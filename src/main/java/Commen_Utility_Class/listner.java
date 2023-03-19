@@ -19,8 +19,8 @@ public class listner extends Baselibraray implements ITestListener {
 
 		public void onTestStart(ITestResult result) {
 			test=extent.createTest(result.getTestClass().getName()+ " == " +result.getMethod().getMethodName());
-			
 			extent_test.set(test);
+			
 		}
 //		public void onTestSuccess(ITestResult result)
 //		{
@@ -42,8 +42,8 @@ public class listner extends Baselibraray implements ITestListener {
 //		}
 //	
 		public void onTestSuccess(ITestResult result) {
-		test.log(Status.PASS, "Test Case Pass" );
-			//test.addScreenCaptureFromBase64String(getscreenshot());			
+		//test.log(Status.PASS, "Test Case Pass" );
+		//test.addScreenCaptureFromBase64String(getscreenshot());			
 		}
 	
 		public void onTestFailure(ITestResult result) {
