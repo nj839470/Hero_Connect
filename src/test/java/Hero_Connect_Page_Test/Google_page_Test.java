@@ -4,6 +4,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
+
 import Commen_Utility_Class.Baselibraray;
 import Page_Classes.Google_page;
 
@@ -28,6 +30,7 @@ public void get_Title()
 public void search_hero_connect()
 {
 	ob.search_hero_connect();
+
 }
 @Test(priority = 2)
 public void click_on_Hero_connect()
