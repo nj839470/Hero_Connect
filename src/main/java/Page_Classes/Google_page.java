@@ -21,18 +21,18 @@ public Google_page()
 	{
 		String title = driver.getTitle();
 		System.out.println(title);
+		//read_Data_From_Database("select * from employee");
 	}
 	public void search_hero_connect()
 	{
 		log.info("---TC002---Search Hero on connect");
 		custom_sendkeys(search, "Hero Connect", " = search hero Connect =" +search);
-		//Custom_click(open_Hero_connect, " = on hero_connect =" +open_Hero_connect);
+		
 	}
 	public void click_on_Hero_connect()
 	{
 		log.info("---TC003----Open hero_connect");
 		Custom_click(open_Hero_connect, " = on hero_connect =" +open_Hero_connect);
-		//driver.(search, "Hero Connect", " = search hero Connect =" +search);
-		//Assert.assertTrue(false);
+		
 	}
 }

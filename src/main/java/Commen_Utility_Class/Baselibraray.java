@@ -4,6 +4,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -37,7 +41,7 @@ import org.testng.annotations.AfterTest;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import io.github.bonigarcia.wdm.WebDriverManager;
-public class Baselibraray implements PropertyUtility , ExcelUtility , Liberary , ScreenshotUtility , ApplicationUtility
+public class Baselibraray implements PropertyUtility , ExcelUtility , Liberary , ScreenshotUtility , ApplicationUtility ,JDBC_Connect
 {
 public static WebDriver driver;
 	String confipath = System.getProperty("user.dir") +"\\Test_data\\config.properties";
@@ -54,10 +58,10 @@ public static WebDriver driver;
 			if(browsername.equalsIgnoreCase("chrome"))
 			{
 				
-//			WebDriverManager.chromedriver().setup();
-//			 	driver = new ChromeDriver();
-				dc.setBrowserName("chrome");
-				driver =new RemoteWebDriver(new URL("http://localhost:4444"), dc);
+			WebDriverManager.chromedriver().setup();
+			 	driver = new ChromeDriver();
+//				dc.setBrowserName("chrome");
+//				driver =new RemoteWebDriver(new URL("http://localhost:4444"), dc);
 				}
 			 else if(browsername.equalsIgnoreCase("edge"))
 			{
@@ -249,6 +253,30 @@ catch(Exception e) {
 	public void closewindow()
 	{
 		driver.quit();
+	}
+	@Override
+	public ResultSet read_Data_From_Database(String query) {
+		ResultSet result = null;
+		String name ="" ,des ="";
+		int age =0 , rollnum =0 ,salary =0;
+		try {
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/nk","root","Sql@12345");
+			PreparedStatement statement = con.prepareStatement(query);
+			 result = statement.executeQuery();
+			while(result.next())
+			{
+				 name= result.getString(1);
+				 age = result.getInt(2);
+				 rollnum = result.getInt(3);
+				 salary = result.getInt(4);
+				 des = result.getString(5);
+				 System.out.println(rollnum + "   " + name+ "   " + age +"   "+ salary+ "   " +des +"\n");
+			}
+			
+		} catch (Exception e) {
+			System.out.println("Problem in Read data from database " +e);
+		}
+		return result;
 	}
 		
 	}
