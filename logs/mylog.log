@@ -1,6 +1,6 @@
-[INFO ] 2023-03-28 16:30:14.631 [main] Hero_Connect -      ----T0001 ----Title page ------
-[INFO ] 2023-03-28 16:30:14.651 [main] Hero_Connect -  Using google URL = https://www.google.com/
-[INFO ] 2023-03-28 16:30:14.703 [main] Hero_Connect - ---TC002---Search Hero on connect
-[INFO ] 2023-03-28 16:30:15.683 [main] Hero_Connect -   Successfully send Value  = search hero Connect =[[ChromeDriver: chrome on WINDOWS (e0a4d75eb6296fb103eafeb6d0ae696d)] -> xpath: //input[@class="gLFyf"]]
-[INFO ] 2023-03-28 16:30:15.693 [main] Hero_Connect - ---TC003----Open hero_connect
-[INFO ] 2023-03-28 16:30:20.197 [main] Hero_Connect -   Successfully Click  = on hero_connect =[[ChromeDriver: chrome on WINDOWS (e0a4d75eb6296fb103eafeb6d0ae696d)] -> xpath: (//span[contains(text(),'hero connect')])[1]]
+[INFO ] 2023-03-28 19:32:05.017 [main] Hero_Connect -      ----T0001 ----Title page ------
+[INFO ] 2023-03-28 19:32:05.052 [main] Hero_Connect -  Using google URL = https://www.google.com/
+[INFO ] 2023-03-28 19:32:05.100 [main] Hero_Connect - ---TC002---Search Hero on connect
+[INFO ] 2023-03-28 19:32:06.083 [main] Hero_Connect -   Successfully send Value  = search hero Connect =[[ChromeDriver: chrome on WINDOWS (5c8f3758a2dcf9d2a461ee4b4936fdac)] -> xpath: //input[@class="gLFyf"]]
+[INFO ] 2023-03-28 19:32:06.088 [main] Hero_Connect - ---TC003----Open hero_connect
+[INFO ] 2023-03-28 19:32:34.074 [main] Hero_Connect -   Successfully Click  = on hero_connect =[[ChromeDriver: chrome on WINDOWS (5c8f3758a2dcf9d2a461ee4b4936fdac)] -> xpath: (//span[contains(text(),'hero connect')])[1]]
