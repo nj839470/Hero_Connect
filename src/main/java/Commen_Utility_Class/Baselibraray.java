@@ -263,15 +263,15 @@ catch(Exception e) {
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/nk","root","Sql@12345");
 			PreparedStatement statement = con.prepareStatement(query);
 			 result = statement.executeQuery();
-			while(result.next())
-			{
-				 name= result.getString(1);
-				 age = result.getInt(2);
-				 rollnum = result.getInt(3);
-				 salary = result.getInt(4);
-				 des = result.getString(5);
-				 System.out.println(rollnum + "   " + name+ "   " + age +"   "+ salary+ "   " +des +"\n");
-			}
+//			while(result.next())
+//			{
+//				 name= result.getString(1);
+//				 age = result.getInt(2);
+//				 rollnum = result.getInt(3);
+//				 salary = result.getInt(4);
+//				 des = result.getString(5);
+//				 System.out.println(rollnum + "   " + name+ "   " + age +"   "+ salary+ "   " +des +"\n");
+//			}
 			
 		} catch (Exception e) {
 			System.out.println("Problem in Read data from database " +e);
