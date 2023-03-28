@@ -23,7 +23,7 @@ public class Database_practice {
 	}
 	public static void main(String[] args) throws SQLException {
 		Database_practice ob = new Database_practice();
-		ResultSet res = ob.readdata("Select min(salary) from employee");
+		ResultSet res = ob.readdata("delete employee");
 		while(res.next())
 		{
 			int i=1;
