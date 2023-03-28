@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-28T19:31:51 IST" name="Google" finished-at="2023-03-28T19:32:35 IST" duration-ms="43668">
+  <suite started-at="2023-03-28T19:44:39 IST" name="Google" finished-at="2023-03-28T19:45:25 IST" duration-ms="45212">
     <groups>
     </groups>
-    <test started-at="2023-03-28T19:31:51 IST" name="Chrome" finished-at="2023-03-28T19:32:35 IST" duration-ms="43668">
+    <test started-at="2023-03-28T19:44:39 IST" name="Chrome" finished-at="2023-03-28T19:45:25 IST" duration-ms="45212">
       <class name="Hero_Connect_Page_Test.Google_page_Test">
-        <test-method is-config="true" signature="launchURL(java.lang.String,java.lang.String)[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@23e84203]" started-at="2023-03-28T19:31:51 IST" name="launchURL" finished-at="2023-03-28T19:32:04 IST" duration-ms="12892" status="PASS">
+        <test-method is-config="true" signature="launchURL(java.lang.String,java.lang.String)[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@23e84203]" started-at="2023-03-28T19:44:39 IST" name="launchURL" finished-at="2023-03-28T19:44:44 IST" duration-ms="4440" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,19 +23,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method signature="get_Title()[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@23e84203]" started-at="2023-03-28T19:32:04 IST" name="get_Title" finished-at="2023-03-28T19:32:05 IST" duration-ms="131" status="PASS">
+        <test-method signature="get_Title()[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@23e84203]" started-at="2023-03-28T19:44:44 IST" name="get_Title" finished-at="2023-03-28T19:44:44 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get_Title -->
-        <test-method signature="search_hero_connect()[pri:1, instance:Hero_Connect_Page_Test.Google_page_Test@23e84203]" started-at="2023-03-28T19:32:05 IST" name="search_hero_connect" finished-at="2023-03-28T19:32:06 IST" duration-ms="988" status="PASS">
+        <test-method signature="search_hero_connect()[pri:1, instance:Hero_Connect_Page_Test.Google_page_Test@23e84203]" started-at="2023-03-28T19:44:44 IST" name="search_hero_connect" finished-at="2023-03-28T19:45:04 IST" duration-ms="20227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search_hero_connect -->
-        <test-method signature="click_on_Hero_connect()[pri:2, instance:Hero_Connect_Page_Test.Google_page_Test@23e84203]" started-at="2023-03-28T19:32:06 IST" name="click_on_Hero_connect" finished-at="2023-03-28T19:32:34 IST" duration-ms="27989" status="PASS">
+        <test-method signature="click_on_Hero_connect()[pri:2, instance:Hero_Connect_Page_Test.Google_page_Test@23e84203]" started-at="2023-03-28T19:45:04 IST" name="click_on_Hero_connect" finished-at="2023-03-28T19:45:24 IST" duration-ms="20245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_on_Hero_connect -->
-        <test-method is-config="true" signature="closewindow()[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@23e84203]" started-at="2023-03-28T19:32:34 IST" name="closewindow" finished-at="2023-03-28T19:32:35 IST" duration-ms="1521" status="PASS">
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:Hero_Connect_Page_Test.Google_page_Test@23e84203]" started-at="2023-03-28T19:45:24 IST" name="closewindow" finished-at="2023-03-28T19:45:25 IST" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closewindow -->
