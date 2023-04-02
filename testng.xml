@@ -11,14 +11,14 @@
       <class name="Hero_Connect_Page_Test.Google_page_Test"/>
     </classes>
   </test> <!-- title -->
-  <test name="Edge" enabled="false">
+  <test name="Edge" enabled="true">
 	  <parameter name="env" value="google"></parameter>
 	  <parameter name="browswe_name" value="edge"></parameter>
     <classes>
       <class name="Hero_Connect_Page_Test.Google_page_Test"/>
     </classes>
   </test> <!-- title -->
-  <test name="Firefox" enabled="false">
+  <test name="Firefox" enabled="true">
 	  <parameter name="env" value="google"></parameter>
 	  <parameter name="browswe_name" value="firefox"></parameter>
     <classes>
