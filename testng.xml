@@ -4,8 +4,7 @@
 	<listeners>
 <listener class-name="Commen_Utility_Class.listner"></listener>
 </listeners>
-
-  <test name="Chrome" enabled="true">
+<test name="Chrome" enabled="true">
 	  <parameter name="env" value="google"></parameter>
 	  <parameter name="browswe_name" value="chrome"></parameter>
     <classes>
@@ -26,4 +25,5 @@
       <class name="Hero_Connect_Page_Test.Google_page_Test"/>
     </classes>
   </test> <!-- title -->
+  
 </suite> <!-- Google -->

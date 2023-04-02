@@ -5,6 +5,7 @@
     <classes>
       <class name="Hero_Connect_Page_Test.Google_page_Test">
         <methods>
+          <include name="closewindow"/>
           <include name="get_Title"/>
           <include name="launchURL"/>
         </methods>
