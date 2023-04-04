@@ -5,11 +5,11 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
 public class Database_practice {
 	static String name ="" ,des ="",dob="" ;
 	static int age =0 , rollnum =0 ,salary =0;
 	 ResultSet result;
+	 
 	public ResultSet readdata(String query)
 	{
 		try {
