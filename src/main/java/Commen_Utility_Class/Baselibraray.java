@@ -58,10 +58,10 @@ public static WebDriver driver;
 			if(browsername.equalsIgnoreCase("chrome"))
 			{
 				
-//			WebDriverManager.chromedriver().setup();
-//			 	driver = new ChromeDriver();
-				dc.setBrowserName("chrome");
-				driver =new RemoteWebDriver(new URL("http://localhost:4444"), dc);
+			WebDriverManager.chromedriver().setup();
+			 	driver = new ChromeDriver();
+//				dc.setBrowserName("chrome");
+//				driver =new RemoteWebDriver(new URL("http://localhost:4444"), dc);
 				}
 			 else if(browsername.equalsIgnoreCase("edge"))
 			{
