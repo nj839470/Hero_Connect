@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Chrome</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Apr 12 08:56:33 IST 2023</td>
+<td>Started on:</td><td>Mon Apr 17 08:56:15 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>11 seconds (11949 ms)</td>
+<tr><td>Total time:</td><td>19 seconds (19511 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,47 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Hero_Connect_Page_Test.Enquiry_Page_test.read_Data_From_Database()'><b>read_Data_From_Database</b><br>Test class: Hero_Connect_Page_Test.Enquiry_Page_test</td>
+<td><div><pre>org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest&gt; into a @AfterTest annotated read_Data_From_Database.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2005293363", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2005293363'><pre>org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest&gt; into a @AfterTest annotated read_Data_From_Database.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.afterRun(TestRunner.java:877)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>-1681701994</td>
+<td>Hero_Connect_Page_Test.Enquiry_Page_test@359df09a</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,20 +116,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Hero_Connect_Page_Test.Google_page_Test.get_Title()'><b>get_Title</b><br>Test class: Hero_Connect_Page_Test.Google_page_Test</td>
+<td title='Hero_Connect_Page_Test.Enquiry_Page_test.get_Title()'><b>get_Title</b><br>Test class: Hero_Connect_Page_Test.Enquiry_Page_test</td>
 <td></td>
 <td>0</td>
-<td>Hero_Connect_Page_Test.Google_page_Test@23e84203</td></tr>
+<td>Hero_Connect_Page_Test.Enquiry_Page_test@359df09a</td></tr>
 <tr>
-<td title='Hero_Connect_Page_Test.Google_page_Test.search_hero_connect()'><b>search_hero_connect</b><br>Test class: Hero_Connect_Page_Test.Google_page_Test</td>
+<td title='Hero_Connect_Page_Test.Enquiry_Page_test.click_On_Enquiry()'><b>click_On_Enquiry</b><br>Test class: Hero_Connect_Page_Test.Enquiry_Page_test</td>
 <td></td>
-<td>0</td>
-<td>Hero_Connect_Page_Test.Google_page_Test@23e84203</td></tr>
-<tr>
-<td title='Hero_Connect_Page_Test.Google_page_Test.click_on_Hero_connect()'><b>click_on_Hero_connect</b><br>Test class: Hero_Connect_Page_Test.Google_page_Test</td>
-<td></td>
-<td>5</td>
-<td>Hero_Connect_Page_Test.Google_page_Test@23e84203</td></tr>
+<td>6</td>
+<td>Hero_Connect_Page_Test.Enquiry_Page_test@359df09a</td></tr>
 </table><p>
 </body>
 </html>

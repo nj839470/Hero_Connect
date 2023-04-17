@@ -1,6 +1,5 @@
-[INFO ] 2023-04-12 08:56:39.548 [main] Hero_Connect -      ----T0001 ----Title page ------
-[INFO ] 2023-04-12 08:56:39.553 [main] Hero_Connect -  Using google URL = https://www.google.com/
-[INFO ] 2023-04-12 08:56:39.568 [main] Hero_Connect - ---TC002---Search Hero on connect
-[INFO ] 2023-04-12 08:56:39.781 [main] Hero_Connect -   Successfully send Value  = search hero Connect =[[ChromeDriver: chrome on WINDOWS (c043cf0badb43eca6d750d84fa4489d1)] -> xpath: //input[@class="gLFyf"]]
-[INFO ] 2023-04-12 08:56:39.786 [main] Hero_Connect - ---TC003----Open hero_connect
-[INFO ] 2023-04-12 08:56:44.791 [main] Hero_Connect -   Successfully Click  = on hero_connect =[[ChromeDriver: chrome on WINDOWS (c043cf0badb43eca6d750d84fa4489d1)] -> xpath: (//span[contains(text(),'hero connect')])[1]]
+[INFO ] 2023-04-17 08:56:27.791 [main] Hero_Connect -      ----T0001 ----Title page ------
+[INFO ] 2023-04-17 08:56:27.799 [main] Hero_Connect -  Using Hero_Connect URL = https://pt.heromotocorp.biz/siebel/app/edealer/enu?SWECmd=Login&SWECM=S&SWEHo=202.56.244.135
+[INFO ] 2023-04-17 08:56:27.810 [main] Hero_Connect - ---TC002---Enquiry page
+[INFO ] 2023-04-17 08:56:30.157 [main] Hero_Connect -   Successfully Click  enquiry
+[INFO ] 2023-04-17 08:56:34.517 [main] Hero_Connect -   Successfully Click new button

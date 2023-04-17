@@ -7,35 +7,35 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.Status;
 
 import Commen_Utility_Class.Baselibraray;
-import Page_Classes.Google_page;
+import Page_Classes.Enquiry_Page;
 
-public class Google_page_Test extends Baselibraray
+public class Enquiry_Page_test extends Baselibraray
 {
-	public Google_page ob;
+	public Enquiry_Page ob;
 @Parameters({"env" , "browswe_name"})
 @BeforeTest
 public void launchURL(String env,String browswe_name )
 {
 	getlaunchURL(getReadData(env) , browswe_name);
-	ob = new Google_page();
+	ob = new Enquiry_Page();
 }
 @Test(priority = 0)
 public void get_Title()
 {
 	log.info("     ----T0001 ----Title page ------");
-	msg(" Using google URL = ", getReadData("google"));
+	msg(" Using Hero_Connect URL = ", getReadData("stageurl"));
 	ob.get_Title();
 }
 @Test(priority = 1)
-public void search_hero_connect()
+public void click_On_Enquiry() throws InterruptedException
 {
-	ob.search_hero_connect();
+	ob.click_On_Enquiry();
 
 }
-@Test(priority = 2)
-public void click_on_Hero_connect()
-{
-	ob.click_on_Hero_connect();
-}
+//@Test(priority = 2)
+//public void click_on_Hero_connect()
+//{
+//	ob.click_on_Hero_connect();
+//}
 	
 }

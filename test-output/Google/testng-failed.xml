@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Google]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Commen_Utility_Class.listner"/>
+  </listeners>
   <test thread-count="5" name="Chrome(failed)">
     <parameter name="browswe_name" value="chrome"/>
-    <parameter name="env" value="google"/>
+    <parameter name="env" value="stageurl"/>
     <classes>
-      <class name="Hero_Connect_Page_Test.Google_page_Test">
+      <class name="Hero_Connect_Page_Test.Enquiry_Page_test">
         <methods>
-          <include name="click_on_Hero_connect"/>
-          <include name="getanalysis"/>
-          <include name="closewindow"/>
-          <include name="get_Title"/>
+          <include name="read_Data_From_Database"/>
           <include name="launchURL"/>
-          <include name="search_hero_connect"/>
+          <include name="click_On_Enquiry"/>
+          <include name="get_Title"/>
         </methods>
-      </class> <!-- Hero_Connect_Page_Test.Google_page_Test -->
+      </class> <!-- Hero_Connect_Page_Test.Enquiry_Page_test -->
     </classes>
   </test> <!-- Chrome(failed) -->
 </suite> <!-- Failed suite [Google] -->
