@@ -7,7 +7,7 @@
 <test name="Chrome" enabled="true">
 	  <parameter name="env" value="stageurl"></parameter>
 	  <parameter name="browswe_name" value="chrome"></parameter>
-    <classes>
+    <classes> 
       <class name="Hero_Connect_Page_Test.Enquiry_Page_test"/>
     </classes>
   </test> <!-- title -->

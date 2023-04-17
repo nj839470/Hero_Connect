@@ -15,7 +15,7 @@ public Enquiry_Page()
 }
 	@FindBy(xpath ="//a[text()='Enquiry']")
 	private WebElement enquiry;
-	@FindBy(xpath ="//button[@name=\"s_3_1_341_0\"]/span")
+	@FindBy(xpath ="//button[@name=\"s_3_1_341_0\"]")
 	private WebElement new_Button;
 	public void get_Title()
 	{
@@ -26,7 +26,7 @@ public Enquiry_Page()
 	public void click_On_Enquiry() throws InterruptedException
 	{
 		log.info("---TC002---Enquiry page");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		Custom_click(enquiry, " enquiry");
 		Custom_click(new_Button, "new button");
 		
