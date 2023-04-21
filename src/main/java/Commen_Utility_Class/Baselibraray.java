@@ -134,8 +134,8 @@ public class Baselibraray
 		try {
 			if (element.isEnabled() || element.isDisplayed() == true) {
 				wait = new WebDriverWait(driver, 10);
-				wait.until(ExpectedConditions.visibilityOf(element));
-				element.clear();
+				wait.until(ExpectedConditions.elementToBeClickable(element));
+				//element.clear();
 				element.sendKeys(value);
 				test.log(Status.PASS, fieldname + "==Value Successfully send==" + value);
 				log.info("  Successfully send Value " + fieldname);

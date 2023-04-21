@@ -25,6 +25,7 @@ public void get_Title()
 	log.info("     ----T0001 ----Title page ------");
 	msg(" Using Hero_Connect URL = ", getReadData("stageurl"));
 	ob.get_Title();
+	
 }
 @Test(priority = 1)
 public void click_On_Enquiry() throws InterruptedException

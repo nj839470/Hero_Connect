@@ -1,5 +1,4 @@
-[INFO ] 2023-04-17 08:56:27.791 [main] Hero_Connect -      ----T0001 ----Title page ------
-[INFO ] 2023-04-17 08:56:27.799 [main] Hero_Connect -  Using Hero_Connect URL = https://pt.heromotocorp.biz/siebel/app/edealer/enu?SWECmd=Login&SWECM=S&SWEHo=202.56.244.135
-[INFO ] 2023-04-17 08:56:27.810 [main] Hero_Connect - ---TC002---Enquiry page
-[INFO ] 2023-04-17 08:56:30.157 [main] Hero_Connect -   Successfully Click  enquiry
-[INFO ] 2023-04-17 08:56:34.517 [main] Hero_Connect -   Successfully Click new button
+[INFO ] 2023-04-21 23:04:58.929 [main] Hero_Connect -      ----T0001 ----Title page ------
+[INFO ] 2023-04-21 23:04:58.934 [main] Hero_Connect -  Using Hero_Connect URL = https://pt.heromotocorp.biz/siebel/app/edealer/enu?SWECmd=Login&SWECM=S&SWEHo=202.56.244.135
+[INFO ] 2023-04-21 23:04:58.943 [main] Hero_Connect - ---TC002---Enquiry page
+[ERROR] 2023-04-21 23:05:22.205 [main] Hero_Connect - ==Unable to Click  enquiry
