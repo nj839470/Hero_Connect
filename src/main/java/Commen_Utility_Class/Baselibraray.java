@@ -34,6 +34,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -282,6 +283,40 @@ public class Baselibraray
 			System.out.println("Problem in Read data from database " + e);
 		}
 		return result;
+	}
+
+	@Override
+	public void drop_down_byIndex(WebElement element ,int index , String fieldname) {
+		try {
+			wait = new WebDriverWait(driver, 10);
+			wait.until(ExpectedConditions.elementToBeClickable(element));
+			Select sel = new Select(element);
+			sel.selectByIndex(index);
+			test.log(Status.PASS, fieldname + "==Value Successfully select==" + fieldname);
+			log.info("  Successfully send " + fieldname);
+		} catch (Exception e) {
+			test.log(Status.FAIL, fieldname + "==Unable To  select ==" + e);
+			log.error("==Unable to select " + fieldname);
+			lis.onTestFailure(null);		}
+		
+	}
+
+	@Override
+	public void drop_down_by_Value(WebElement element, String value, String fieldname) {
+	try {
+		
+		wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.elementToBeClickable(element));
+		Select sel = new Select(element);
+		sel.selectByValue(value);
+		test.log(Status.PASS, fieldname + "==Value Successfully select==" + fieldname);
+		log.info("  Successfully selet Value " + fieldname);
+	} catch (Exception e) {
+		test.log(Status.FAIL, fieldname + "==Unable To  selectable ==" + e);
+		log.error("==Unable to select " + fieldname);
+		lis.onTestFailure(null);
+	}
+		
 	}
 
 }

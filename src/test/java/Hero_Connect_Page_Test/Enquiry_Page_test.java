@@ -33,10 +33,5 @@ public void click_On_Enquiry() throws InterruptedException
 	ob.click_On_Enquiry();
 
 }
-//@Test(priority = 2)
-//public void click_on_Hero_connect()
-//{
-//	ob.click_on_Hero_connect();
-//}
 	
 }

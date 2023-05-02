@@ -1,4 +1,27 @@
-[INFO ] 2023-04-21 23:04:58.929 [main] Hero_Connect -      ----T0001 ----Title page ------
-[INFO ] 2023-04-21 23:04:58.934 [main] Hero_Connect -  Using Hero_Connect URL = https://pt.heromotocorp.biz/siebel/app/edealer/enu?SWECmd=Login&SWECM=S&SWEHo=202.56.244.135
-[INFO ] 2023-04-21 23:04:58.943 [main] Hero_Connect - ---TC002---Enquiry page
-[ERROR] 2023-04-21 23:05:22.205 [main] Hero_Connect - ==Unable to Click  enquiry
+[INFO ] 2023-05-02 14:18:47.090 [main] Hero_Connect -      ----T0001 ----Title page ------
+[INFO ] 2023-05-02 14:18:47.090 [main] Hero_Connect -  Using Hero_Connect URL = https://pt.heromotocorp.biz/siebel/app/edealer/enu?SWECmd=Login&SWECM=S&SWEHo=202.56.244.135
+[INFO ] 2023-05-02 14:18:47.112 [main] Hero_Connect - ---TC002---Enquiry page
+[INFO ] 2023-05-02 14:18:50.164 [main] Hero_Connect -   Successfully Click  enquiry
+[INFO ] 2023-05-02 14:19:00.464 [main] Hero_Connect -   Successfully Click new button
+[INFO ] 2023-05-02 14:19:03.009 [main] Hero_Connect -   Successfully send Value Prefixes
+[INFO ] 2023-05-02 14:19:07.566 [main] Hero_Connect -   Successfully send Value First Nmae
+[INFO ] 2023-05-02 14:19:07.806 [main] Hero_Connect -   Successfully send Value Last name
+[INFO ] 2023-05-02 14:19:08.027 [main] Hero_Connect -   Successfully send Value Mobile Number
+[INFO ] 2023-05-02 14:19:08.277 [main] Hero_Connect -   Successfully send Value Email
+[INFO ] 2023-05-02 14:19:08.767 [main] Hero_Connect -   Successfully send Value State
+[INFO ] 2023-05-02 14:19:10.907 [main] Hero_Connect -   Successfully send Value Districy
+[INFO ] 2023-05-02 14:19:12.769 [main] Hero_Connect -   Successfully send Value Tehsil
+[INFO ] 2023-05-02 14:19:14.044 [main] Hero_Connect -   Successfully send Value City
+[INFO ] 2023-05-02 14:19:15.296 [main] Hero_Connect -   Successfully send Value Address 1
+[INFO ] 2023-05-02 14:19:15.448 [main] Hero_Connect -   Successfully send Value Pine code
+[INFO ] 2023-05-02 14:19:15.608 [main] Hero_Connect -   Successfully send Value Age
+[INFO ] 2023-05-02 14:19:16.808 [main] Hero_Connect -   Successfully send Value Gender
+[INFO ] 2023-05-02 14:19:18.108 [main] Hero_Connect -   Successfully send Value Occupation
+[INFO ] 2023-05-02 14:19:19.747 [main] Hero_Connect -   Successfully send Value Model_INterested_in
+[INFO ] 2023-05-02 14:19:21.109 [main] Hero_Connect -   Successfully send Value Variant
+[INFO ] 2023-05-02 14:19:24.617 [main] Hero_Connect -   Successfully send Value Color
+[INFO ] 2023-05-02 14:19:25.154 [main] Hero_Connect -   Successfully send Value Awarence Source
+[INFO ] 2023-05-02 14:19:26.564 [main] Hero_Connect -   Successfully send Value Enquiery Source
+[INFO ] 2023-05-02 14:19:27.926 [main] Hero_Connect -   Successfully send Value Buying Inted
+[INFO ] 2023-05-02 14:19:29.973 [main] Hero_Connect -   Successfully send Value Point of Contact
+[INFO ] 2023-05-02 14:19:32.199 [main] Hero_Connect - Sucessfully saved quey
