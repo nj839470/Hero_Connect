@@ -11,7 +11,7 @@
       <class name="Hero_Connect_Page_Test.Enquiry_Page_test"/>
     </classes>
   </test> <!-- title -->
-  <test name="Edge" enabled="false">
+  <test name="Edge" enabled="true">
 	  <parameter name="env" value="google"></parameter>
 	  <parameter name="browswe_name" value="edge"></parameter>
     <classes>
