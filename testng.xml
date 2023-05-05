@@ -4,7 +4,7 @@
 	<listeners>
 <listener class-name="Commen_Utility_Class.listner"></listener>
 </listeners>
-<test name="Chrome" enabled="false">
+<test name="Chrome" enabled="true">
 	  <parameter name="env" value="stageurl"></parameter> 
 	  <parameter name="browswe_name" value="chrome"></parameter>
     <classes> 
