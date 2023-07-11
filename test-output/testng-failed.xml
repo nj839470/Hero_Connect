@@ -7,7 +7,6 @@
         <methods>
           <include name="read_Data_From_Database"/>
           <include name="launchURL"/>
-          <include name="click_On_Enquiry"/>
           <include name="get_Title"/>
         </methods>
       </class> <!-- Hero_Connect_Page_Test.Enquiry_Page_test -->

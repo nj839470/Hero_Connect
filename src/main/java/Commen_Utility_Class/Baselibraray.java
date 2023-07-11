@@ -216,7 +216,7 @@ public class Baselibraray
 			FileUtils.copyFile(src, new File(path));
 		} catch (Exception e) {
 			System.out.println("Problem in getScreen shot meythod" + e);
-			lis.onTestFailure(null);
+			
 		}
 	}
 
